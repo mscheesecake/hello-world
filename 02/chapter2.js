@@ -43,3 +43,15 @@ while (wykladnik < 10){
 }
 
 console.log(wynik);
+
+//for loops
+
+for (let num = 0; num <=6; num = num +2){
+	console.log(num);
+}
+
+//ex1 half of christmas tree
+
+for (let branch = "#"; branch.length <= 7; branch = branch + "#"){
+	console.log(branch);
+}
