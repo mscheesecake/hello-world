@@ -26,3 +26,20 @@ if (c < 10) {
 } else {
 	console.log("Large");
 }
+
+//while and do loops
+
+let d = 0;
+while (d <10) {
+	console.log(d);
+	d = d + 2;
+}
+
+let wynik = 1;
+let wykladnik = 0;
+while (wykladnik < 10){
+	wynik = wynik * 2;
+	wykladnik  = wykladnik + 1;
+}
+
+console.log(wynik);
