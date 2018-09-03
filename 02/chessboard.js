@@ -1,17 +1,17 @@
-let size = 8;
-let line = "";
+let boardSize = 8;
+let chessboard = "";
 
-for(let lineNumber = 1; lineNumber <= size; lineNumber++){
-	for(let i = 1; i <= size; i++){
-		if(lineNumber % 2 == 0){
-			line += (i % 2 === 0) ? " " : "#";	
+for (let lineNumber = 1; lineNumber <= boardSize; lineNumber++) {
+	for (let i = 1; i <= boardSize; i++) {
+		if (lineNumber % 2 == 0) {
+			chessboard += (i % 2 === 0) ? " " : "#";	
 		} else {
-			line += (i % 2 === 0) ? "#" : " ";
+			chessboard += (i % 2 === 0) ? "#" : " ";
 		}
 			
 	}	
-	line += "\n"; 
+	chessboard += "\n"; 
 }
 
-console.log(line);
+console.log(chessboard);
 
