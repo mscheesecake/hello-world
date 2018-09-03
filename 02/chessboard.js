@@ -1,4 +1,4 @@
-let boardSize = 8;
+const boardSize = 8;
 let chessboard = "";
 
 for (let lineNumber = 1; lineNumber <= boardSize; lineNumber++) {
