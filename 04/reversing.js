@@ -15,3 +15,13 @@ function reverseArray(array){
 }
 
 console.log(reverseArray(["A", "B", "C"]));
+
+ function reverseInPlace(array1){
+ 	for (let i = 0; i < array1.length; i++){
+ 		array1.splice(i,0, array1.pop())
+ 	}
+ 	return array1;
+ }
+
+let array1= [1, 2, 3, 4, 5];
+console.log(reverseInPlace(array1));
