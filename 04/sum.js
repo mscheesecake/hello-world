@@ -25,3 +25,10 @@ function range(start, end){
 
 console.log(range(1,4))
 console.log(range(5,7))
+
+function sum(array){
+	return array.reduce((total,number) => total + number);
+}
+
+console.log(sum(range(1,3)));
+console.log(sum(range(1,10)))
